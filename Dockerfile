@@ -11,7 +11,7 @@ RUN curl -sL https://deb.nodesource.com/setup_7.x | bash - && \
 	npm install npm@latest -g && locale-gen en_US.UTF-8
 
 # Autorest
-RUN npm install -g autorest@2.0.4143
+RUN npm install -g autorest@2.0.4215
 RUN autorest --reset --allow-no-input --csharp --go --nodejs --typescript --azure-validator
 
 # Set the locale to UTF-8
